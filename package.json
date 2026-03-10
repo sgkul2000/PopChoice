@@ -1,0 +1,26 @@
+{
+  "name": "popchoice",
+  "description": "AI-powered group movie recommendation app",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.38.2",
+    "openai": "4.12.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@langchain/textsplitters": "^0.1.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.16",
+    "dotenv": "^16.3.1",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  }
+}
